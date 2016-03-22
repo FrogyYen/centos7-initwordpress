@@ -2,7 +2,7 @@
 
 galaxy_info:
   author: Frogy Yen
-  description: Installs wordpress on CentOS 7
+  description: Init wordpress on CentOS 7
   company:
   license: license (GPLv2, CC-BY, etc)
   min_ansible_version: 1.7

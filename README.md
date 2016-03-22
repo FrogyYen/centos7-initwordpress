@@ -14,15 +14,11 @@ Role Variables
 --------------
 
 hostname: mywordpress
-modify_hostname: true
-wordpress_version: 4.4.2
-wordpress_parent_path: /usr/share/
-wordpress_path:        "{{ wordpress_parent_path }}/wordpress"
-wordpress_owner: root
-wordpress_group: root
-wordpress_db_name: wordpress
-wordpress_db_user: wordpressuser
-wordpress_db_password: wordpresspassword
+wordpress_install_url: "http://{{ hostname }}/wp-admin/install.php?step=2"
+blog_title: ANSIBLE_TEST
+blog_user: admin
+blog_password: admin
+blog_email: foo@gmail.com
 
 Example Playbook
 ----------------
